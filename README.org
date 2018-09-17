@@ -1,0 +1,67 @@
+#+TITLE: myOS emacs (Aqeel)
+#+AUTHOR: Aqeel Akber <aqeel.akber@gmail.com>
+#+DATE: 2018-09-17
+
+myOS =/etc/skel/= spacemacs configuration layer.
+
+* Software
+
+  This repository has configuration for the following:
+
+  | Task      | Software |
+  | Operating | [[https://www.gnu.org/software/emacs/][emacs]]    |
+
+** Utilized by
+
+   The following utilizes the above and is setup independently.
+
+   | Task                 | Software  |
+   | Encryption / Signing | [[https://www.gnu.org/software/emacs/][gpg]]       |
+   | Base configuration   | [[http://spacemacs.org/][spacemacs]] |
+
+* Installation
+
+  This configuration relies on [[http://spacemacs.org/][spacemacs]] and must be installed in advance either
+  in =$HOME= or =/etc/skel=.
+
+  1) Clone the repository into =/etc/skel= or =$HOME=
+
+     #+BEGIN_SRC shell
+     git clone https://github.com/admiralakber/myOS-emacs /etc/skel/.myOS-emacs
+     #+END_SRC
+
+  2) *(IMPORTANT)* In your user account, configure the layers
+
+     There isn't much to change. Read the documentation for each layer and
+     configure in the installed directory.
+
+     | Layer  | Documentation          | Installed in           |
+     | config | [[file:config/README.org]] | =~/.myOS-emacs/config= |
+     | pim    | [[file:pim/README.org]]    | =~/.myOS-emacs/pim=    |
+
+  3) In user account, install / configure =~/.spacemacs=
+
+     A =Makefile= is provided, any existing =~/.spacemacs= file will be moved to
+     =~/.spacemacs.bak= automatically and may be merged later.
+
+     #+BEGIN_SRC shell
+     cd ~/.myOS-emacs
+     make install
+     #+END_SRC
+
+  4) *(OPTIONAL)* Install =emc= script for easy client / daemon usage
+
+     #+BEGIN_SRC shell
+     cp ~/.myOS-emacs/emc ~/.local/bin/emc
+     #+END_SRC
+
+* Usage
+
+  Run =emacs=, or =emc=
+
+  See layer README files.
+
+* Acknowledgments / Contributions
+
+  + Thanks to the [[http://spacemacs.org/][spacemacs community]] for providing a nice base and way to
+    configure emacs.
