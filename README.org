@@ -32,17 +32,24 @@ myOS =/etc/skel/= spacemacs configuration layer.
 
   2) *(IMPORTANT)* In your user account, configure the layers
 
+     First pull the submodules to get all the layers:
+     #+BEGIN_SRC
+     cd ~/.myOS-emacs
+     make gitreqs
+     #+END_SRC
+
      There isn't much to change. Read the documentation for each layer and
      configure in the installed directory.
 
      | Layer  | Documentation          | Installed in           |
      | config | [[file:config/README.org]] | =~/.myOS-emacs/config= |
-     | pim    | [[file:pim/README.org]]    | =~/.myOS-emacs/pim=    |
+     | pim    | [[https://github.com/admiralakber/myOS-spacemacs-pim][github]]                 | =~/.myOS-emacs/pim=    |
 
   3) In user account, install / configure =~/.spacemacs=
 
-     A =Makefile= is provided, any existing =~/.spacemacs= file will be moved to
-     =~/.spacemacs.bak= automatically and may be merged later.
+     The =Makefile= is provided creates a logical link and any existing
+     =~/.spacemacs= file will be moved to =~/.spacemacs.bak= automatically and
+     may be merged later.
 
      #+BEGIN_SRC shell
      cd ~/.myOS-emacs
