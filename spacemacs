@@ -7,7 +7,7 @@
    dotspacemacs-ask-for-lazy-installation t
    ;; List of additional paths where to look for configuration layers.
    ;; Paths must have a trailing slash (i.e. `~/.mycontribs/')
-   dotspacemacs-configuration-layer-path '("~/.emacs.d/private/myOS-emacs/")
+   dotspacemacs-configuration-layer-path '("~/.myOS-emacs/")
 
    ;; Configuration layers to load
    dotspacemacs-configuration-layers
