@@ -5,6 +5,9 @@
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
   - [[#c][C++]]
+  - [[#emacs-lisp][Emacs Lisp]]
+  - [[#web][Web]]
+  - [[#markdown-languages][Markdown languages]]
 - [[#customization][Customization]]
 
 * Description
@@ -16,11 +19,26 @@
 
 ** C++
 
-   - Standard Spacemacs C++ Layer
-   - Additional configuration in [[file:local/cpp-programming]]
-     - Keybindings
+   - Standard Spacemacs =c-c++= layer
+   - Keybindings
      - Clang format
+
+** Emacs Lisp
+
+   - Standard Spacemacs =emacs-lisp= layer
+
+** Web
+
+   - Standard Spacemacs =javascript= layer
+   - Standard Spacemacs =html= layer
+
+** Markdown languages
+
+   - Standard spacemacs layers
+     - csv
+     - yaml
+     - markdown
 
 * Customization
 
-  Edit [[file:config.el]] and [[layers.el]] as desired.
+  Edit [[file:config.el]], [[file:layers.el]], and [[file:keybindings.el]] as desired.
