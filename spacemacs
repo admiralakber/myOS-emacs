@@ -15,6 +15,7 @@
      ;; private layers
      config
      pim
+     programming
      )
 
    ;; Additional package configuration

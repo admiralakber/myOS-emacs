@@ -10,7 +10,6 @@
                     auto-completion-tab-key-behavior 'cycle
                     auto-completion-enable-help-tooltip t)
    ;; checkers
-   syntax-checking
    spell-checking
    ;; tools
    search-engine

@@ -1,0 +1,26 @@
+#+TITLE: programming layer
+
+
+# TOC links should be GitHub style anchors.
+* Table of Contents                                        :TOC_4_gh:noexport:
+- [[#description][Description]]
+  - [[#c][C++]]
+- [[#customization][Customization]]
+
+* Description
+
+  General emacs configuration layer.
+  - Set up emacs to be an integrated development environment
+  - General programming tools
+  - Markdown languages
+
+** C++
+
+   - Standard Spacemacs C++ Layer
+   - Additional configuration in [[file:local/cpp-programming]]
+     - Keybindings
+     - Clang format
+
+* Customization
+
+  Edit [[file:config.el]] and [[layers.el]] as desired.
