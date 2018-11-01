@@ -4,10 +4,11 @@
 # TOC links should be GitHub style anchors.
 * Table of Contents                                        :TOC_4_gh:noexport:
 - [[#description][Description]]
+  - [[#tools][Tools]]
+  - [[#markup-languages][Markup languages]]
   - [[#c][C++]]
   - [[#emacs-lisp][Emacs Lisp]]
   - [[#web][Web]]
-  - [[#markdown-languages][Markdown languages]]
 - [[#customization][Customization]]
 
 * Description
@@ -17,27 +18,43 @@
   - General programming tools
   - Markdown languages
 
+** Tools
+
+   - Standard spacemacs layers
+     - =syntax-checking=
+     - =git=
+     - =github=
+     - =gtags=
+
+** Markup languages
+
+   Org is set up as its own beast in [[https://github.com/admiralakber/myOS-spacemacs-pim][myOS-spacemacs-pim]].
+
+   - Standard spacemacs layers
+     - =csv=
+     - =yaml=
+     - =markdown=
+     - =latex=
+
 ** C++
 
-   - Standard Spacemacs =c-c++= layer
+   - Standard Spacemacs =c-c++= layers
+     - =c-c++=
+     - =semantic=
+     - =cscope=
    - Keybindings
      - Clang format
 
 ** Emacs Lisp
 
-   - Standard Spacemacs =emacs-lisp= layer
+   - Standard Spacemacs layers
+     - =emacs-lisp=
 
 ** Web
 
-   - Standard Spacemacs =javascript= layer
-   - Standard Spacemacs =html= layer
-
-** Markdown languages
-
-   - Standard spacemacs layers
-     - csv
-     - yaml
-     - markdown
+   - Standard Spacemacs layers
+     - =javascript=
+     - =html=
 
 * Customization
 
