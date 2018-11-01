@@ -19,7 +19,7 @@
           c-c++-default-mode-for-headers 'c++-mode
           c-c++-enable-clang-support t)
    semantic
-   cscope
+   ;;cscope
 
    ;;; Emacs Lisp
    emacs-lisp
