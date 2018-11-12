@@ -26,4 +26,8 @@
    ;;; Web
    html
    javascript
+   react
+   ;;; Python
+   python
+   ipython-notebook
    ))
