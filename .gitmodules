@@ -1,4 +1,0 @@
-[submodule "pim"]
-	path = pim
-	url = https://github.com/admiralakber/myOS-spacemacs-pim
-	branch = master
