@@ -71,7 +71,6 @@
    dotspacemacs-show-transient-state-color-guide t
    dotspacemacs-mode-line-unicode-symbols t
    dotspacemacs-smooth-scrolling t
-   dotspacemacs-line-numbers 'relative
    dotspacemacs-folding-method 'evil
    dotspacemacs-smartparens-strict-mode nil
    dotspacemacs-smart-closing-parenthesis nil
@@ -80,6 +79,7 @@
    dotspacemacs-search-tools '("ag" "pt" "ack" "grep")
    dotspacemacs-default-package-repository nil
    dotspacemacs-whitespace-cleanup 'all
+   global-display-line-numbers-mode t
    ;; aesthetics/look
    dotspacemacs-active-transparency 90
    dotspacemacs-inactive-transparency 90
