@@ -15,9 +15,9 @@ myOS =/etc/skel/= spacemacs configuration layer.
 
    The following utilizes the above and is setup independently.
 
-   | Task                 | Software  |
-   | Encryption / Signing | [[https://www.gnu.org/software/emacs/][gpg]]       |
-   | Base configuration   | [[http://spacemacs.org/][spacemacs]] |
+   | Task                 | Software                   |
+   | Encryption / Signing | [[https://www.gnu.org/software/emacs/][gpg]]                        |
+   | Base configuration   | [[http://spacemacs.org/][spacemacs]] (develop branch) |
 
 * Installation
 
@@ -32,18 +32,12 @@ myOS =/etc/skel/= spacemacs configuration layer.
 
   2) *(IMPORTANT)* In your user account, configure the layers
 
-     First pull the submodules to get all the layers:
-     #+BEGIN_SRC
-     cd ~/.myOS-emacs
-     make gitreqs
-     #+END_SRC
-
      There isn't much to change. Read the documentation for each layer and
      configure in the installed directory.
 
      | Layer       | Documentation               | Installed in                | Quick note           |
      | config      | [[file:config/README.org]]      | =~/.myOS-emacs/config=      | Check config.el      |
-     | pim         | [[https://github.com/admiralakber/myOS-spacemacs-pim][github]]                      | =~/.myOS-emacs/pim=         | Check config.el      |
+     | pim         | [[file:pim/README.org]]         | =~/.myOS-emacs/pim=         | Check config.el      |
      | programming | [[file:programming/README.org]] | =~/.myOS-emacs/programming= | Check keybindings.el |
 
   3) In user account, install / configure =~/.spacemacs=
