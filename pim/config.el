@@ -23,5 +23,4 @@
 (setq org-journal-time-format "Entry started %H:%M:%S%z\n  ")
 (setq org-journal-time-prefix "* ")
 (setq org-journal-enable-agenda-integration t)
-(setq org-journal-enable-encryption t)
 (setq org-journal-carryover-items nil)
