@@ -17,4 +17,4 @@
 (push (cons 'OpenPGP (epg-config--make-gpg-configuration epg-gpg-program))
       epg--configurations)
 (setq package-gnupghome-dir nil)
-
+(setq auto-save-default nil)   ;; Auto saving of decrypted files is a security flaw, never risk
